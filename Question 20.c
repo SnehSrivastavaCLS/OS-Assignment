@@ -11,7 +11,7 @@
 	int main(void)
 	{
 		int n=3;
-		struct requirement  s[n];
+		struct requirement s[n];
 		s[0].pen=true;		
 		s[0].paper = false;
 		s[0].question_paper = false;
@@ -45,6 +45,6 @@
 				printf("Second Student has completed the task\n");
 			}
 		}
-		printf("All the students now have completed their respective tasks succesfully\n");
+		printf("All the students have now completed their respective tasks successfully\n");
 		return 0;
 	}
